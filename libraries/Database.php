@@ -1,9 +1,16 @@
 <?php
 class Database {
-	private $host = 'localhost';
-	private $user = 'root';
-	private $pass = '';
-	private $dbname = 'phonebook';
+	//Development connection
+	// private $host = 'localhost';
+	// private $user = 'root';
+	// private $pass = '';
+	// private $dbname = 'phonebook';
+	
+	//Remote Database Connection
+	private $host = 'remotemysql.com';
+	private $user = 'RM6oPbDSV3';
+	private $pass = 'vrNrD3SeEl';
+	private $dbname = 'RM6oPbDSV3';
 	
 	private $dbh;
 	private $error;
