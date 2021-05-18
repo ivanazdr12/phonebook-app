@@ -10,10 +10,17 @@ include('libraries/Database.php');
 
 $search = $_POST['search'];
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "phonebook";
+//Development connection
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$db = "phonebook";
+
+//Remote Database Connection
+$servername = "remotemysql.com";
+$username = "RM6oPbDSV3";
+$password = "vrNrD3SeEl";
+$db = "RM6oPbDSV3";
 
 $conn = new mysqli($servername, $username, $password, $db);
 
